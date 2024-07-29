@@ -1,0 +1,125 @@
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.avatar-container {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.upload-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-container:hover .upload-icon {
+  display: flex;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.rounded-img {
+  border-radius: 8px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.exp-bar {
+  width: 200px;
+}
+
+.exp-text {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.equal-height-card {
+  height: 100%;
+}
+
+.rect-chip {
+  border-radius: 5px;
+}
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+.level-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.exp-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

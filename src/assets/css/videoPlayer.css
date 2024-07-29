@@ -1,0 +1,118 @@
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.action-btn {
+  margin-right: 20px;
+}
+
+.video-info {
+  padding: 20px;
+}
+
+.episode-list .v-row {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.episode-container {
+  display: flex;
+}
+
+.episode-col {
+  margin-top: 5px; /* 增加上下间距 */
+  margin-bottom: 5px; /* 增加上下间距 */
+}
+
+.episode-btn {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.recommendation-container .v-col {
+  margin-top: 20px; /* 增加上下间距 */
+}
+
+.recommendation-title {
+  margin-top: 20px; /* 增加上方间距 */
+  margin-bottom: 20px; /* 增加下方间距 */
+}
+
+.recommendation-card .v-card-title,
+.recommendation-card .v-card-subtitle {
+  font-size: 12px; /* 调整字体大小 */
+}
+
+.rounded-img {
+  border-radius: 8px;
+}
+
+.rounded-iframe {
+  border-radius: 8px;
+}
+
+.left-align {
+  text-align: left;
+  font-size: 15px;
+}
+
+.video-stats,
+.video-meta {
+  color: gray;
+}
+
+.v-divider {
+  width: 100%;
+}
+
+/* Hide scrollbars for iframe */
+.video-player iframe {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.video-player iframe::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+/* Media query to handle single column display for recommendations */
+.recommendation-container .v-col {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+/* Media query to handle mobile layout */
+@media (max-width: 600px) {
+  .desktop-side {
+    display: none;
+  }
+  .video-info,
+  .post-comment,
+  .comment-list,
+  .episode-list,
+  .v-select {
+    order: 1;
+  }
+  .episode-list,
+  .v-select {
+    margin-top: 20px;
+  }
+  .recommendation-title,
+  .recommendation-container {
+    order: 2;
+    margin-top: 20px;
+  }
+}
