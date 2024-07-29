@@ -1,6 +1,6 @@
-# video-site
+# Betelgeuse
 
-This template should help get you started developing with Vue 3 in Vite.
+This is video site template.
 
 ## Recommended IDE Setup
 
@@ -32,4 +32,10 @@ pnpm build
 
 ```sh
 pnpm lint
+```
+
+### Environment
+
+```sh
+NodeJS 18+
 ```
